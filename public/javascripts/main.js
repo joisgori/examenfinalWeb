@@ -48,8 +48,8 @@ function lenguajes() {
                 <td> ${ element.origen} </td>
                 <td> ${ element.paradigma} </td>
                 <td>
-                    <a href = "/lenguaje ${ element._id}" class="update btn-warning" > Actualizar </a>
-                    <a href = "/lenguaje ${ element._id}" class="delete btn-danger" > Eliminar </a>
+                    <a href = "/lenguaje/${ element._id}" class="update btn-warning" > Actualizar </a>
+                    <a href = "/lenguaje/${ element._id}" class="delete btn-danger" > Eliminar </a>
                 </td>
             </tr>`
             });
