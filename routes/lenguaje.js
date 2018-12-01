@@ -4,4 +4,6 @@ const lenguajeController = require('../controller/LenguajeController');
 
 router.get('/', lenguajeController.index);
 
+router.post('/', lenguajeController.store);
+
 module.exports = router;
